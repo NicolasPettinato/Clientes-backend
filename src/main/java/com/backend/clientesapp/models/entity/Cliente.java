@@ -1,4 +1,4 @@
-package com.backend.clientesapp.models;
+package com.backend.clientesapp.models.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
