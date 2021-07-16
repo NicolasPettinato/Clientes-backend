@@ -21,6 +21,13 @@ public class Cliente implements Serializable {
      @Temporal(TemporalType.DATE)
     private Date fecha;
 
+    //Methods
+    @PrePersist
+    public void prePersist(){
+        fecha = new Date();
+    }
+
+    //Getters & Setters
     public Long getId() {
         return id;
     }
